@@ -1,5 +1,5 @@
 # **Турфирма**
->![Изображение](https://www.google.ru/url?sa=i&url=https%3A%2F%2Fsovcominvest.ru%2F6141-turfirma-u-metro-park-pobedy&psig=AOvVaw1ovm_5ikyU5P97u1uRTKx7&ust=1744710280975000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKj60bee14wDFQAAAAAdAAAAABAS.png "Турфирма")
+>![Изображение](https://github.com/user-attachments/assets/fa8d2a64-f4b4-4324-bf23-e5b095cda52f)
 ## **Описание 📂**
 
 ### Информация об авторе 📝
