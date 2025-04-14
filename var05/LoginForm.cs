@@ -51,8 +51,9 @@ namespace var05
 
         private void OpenMainForm()
         {
-         //   MainForm mainForm = new MainForm();
-          //  mainForm.Show(); 
+            MainForm mainForm = new MainForm();
+            mainForm.Show();
+            this.Hide();
         }
 
         private void RefreshCaptchaButton_Click(object sender, EventArgs e)

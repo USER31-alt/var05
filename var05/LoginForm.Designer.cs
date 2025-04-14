@@ -97,18 +97,18 @@ namespace var05
             // 
             // userHame
             // 
-            this.userHame.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.userHame.Location = new System.Drawing.Point(116, 127);
+            this.userHame.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.userHame.Location = new System.Drawing.Point(116, 125);
             this.userHame.Name = "userHame";
-            this.userHame.Size = new System.Drawing.Size(152, 26);
+            this.userHame.Size = new System.Drawing.Size(152, 31);
             this.userHame.TabIndex = 5;
             // 
             // Password
             // 
-            this.Password.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.Password.Location = new System.Drawing.Point(116, 166);
+            this.Password.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Password.Location = new System.Drawing.Point(116, 164);
             this.Password.Name = "Password";
-            this.Password.Size = new System.Drawing.Size(152, 26);
+            this.Password.Size = new System.Drawing.Size(152, 31);
             this.Password.TabIndex = 6;
             // 
             // CaptchaTextBox
@@ -120,19 +120,19 @@ namespace var05
             // 
             // CaptchaImage
             // 
-            this.CaptchaImage.Location = new System.Drawing.Point(116, 215);
+            this.CaptchaImage.Location = new System.Drawing.Point(105, 217);
             this.CaptchaImage.Name = "CaptchaImage";
-            this.CaptchaImage.Size = new System.Drawing.Size(152, 46);
+            this.CaptchaImage.Size = new System.Drawing.Size(172, 46);
             this.CaptchaImage.TabIndex = 8;
             this.CaptchaImage.TabStop = false;
             // 
             // PasswordB
             // 
-            this.PasswordB.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.PasswordB.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.PasswordB.Font = new System.Drawing.Font("Autoproject  GOST Type A", 15.75F);
-            this.PasswordB.Location = new System.Drawing.Point(220, 166);
+            this.PasswordB.Location = new System.Drawing.Point(222, 166);
             this.PasswordB.Name = "PasswordB";
-            this.PasswordB.Size = new System.Drawing.Size(48, 26);
+            this.PasswordB.Size = new System.Drawing.Size(43, 27);
             this.PasswordB.TabIndex = 9;
             this.PasswordB.UseVisualStyleBackColor = false;
             this.PasswordB.Click += new System.EventHandler(this.ShowPasswordButton_Click);
@@ -143,9 +143,9 @@ namespace var05
             this.PasswordB33.Font = new System.Drawing.Font("Autoproject  GOST Type A", 15.75F);
             this.PasswordB33.Location = new System.Drawing.Point(234, 283);
             this.PasswordB33.Name = "PasswordB33";
-            this.PasswordB33.Size = new System.Drawing.Size(50, 22);
+            this.PasswordB33.Size = new System.Drawing.Size(34, 22);
             this.PasswordB33.TabIndex = 10;
-            this.PasswordB33.Text = "button3";
+            this.PasswordB33.Text = "*";
             this.PasswordB33.UseVisualStyleBackColor = false;
             this.PasswordB33.Click += new System.EventHandler(this.RefreshCaptchaButton_Click);
             // 
@@ -167,6 +167,7 @@ namespace var05
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "LoginForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.CaptchaImage)).EndInit();
             this.ResumeLayout(false);
